@@ -8,7 +8,7 @@ Shuffle uses a modern version of the [Fischer-Yates shuffle](https://en.wikipedi
 
 ## Style
 
-Inspiration has been taken from Wes Anderson's style in his recent movies where he is a big fan of using Futura as the font and is keen of using yellow and red tones.
+Inspiration has been taken from **Wes Anderson's** style in his recent movies where he is a big fan of using Futura as the font and is keen of using yellow and red tones.
 
 For the images on the higher suits, jack, queen and king, alternative movie posters has been used.
 
