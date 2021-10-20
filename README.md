@@ -1,46 +1,15 @@
-# Getting Started with Create React App
+# Simple card game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ability to draw cards, sort and shuffle the cards. More decks can be added to the pile of cards and reset to only one deck.
 
-## Available Scripts
+Sorting is done by ordering the cards by their color and suit. Colors are sorted in the order of `clubs, diamonds, hearts and spades`. And the suits is ordered in ascending order and `ace` is considered the highest value.
 
-In the project directory, you can run:
+Shuffle uses a modern version of the [Fischer-Yates shuffle](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle#The_modern_algorithm) algoritm. Uses modern ES6 features for fast shuffling and compact code.
 
-### `npm start`
+## Style
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Inspiration has been taken from Wes Anderson's style in his recent movies where he is a big fan of using Futura as the font and is keen of using yellow and red tones.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+For the images on the higher suits, jack, queen and king, alternative movie posters has been used.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### [https://cardgame-mattiasalm.vercel.app/](https://cardgame-mattiasalm.vercel.app/)
